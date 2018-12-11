@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Tech Gadgets</string>
+
+
+    <string-array name="attractions">
+
+        <item>FitBit</item>
+
+        <item>Apple Watch</item>
+
+        <item>Samsung </item>
+
+        <item>Sony </item>
+
+        <item>Michael Kors </item>
+
+    </string-array>
+
+</resources>

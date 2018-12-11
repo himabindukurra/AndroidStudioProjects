@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmenu"
+    tools:context="com.udayton.binduk.notetaker.AboutActivity">
+
+    <TextView
+        android:id="@+id/txtAboutContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtAboutTitle"
+        android:fontFamily="cursive"
+        android:paddingLeft="60dp"
+        android:paddingRight="15dp"
+        android:text="@string/about"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAboutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="cursive"
+        android:paddingTop="25dp"
+        android:text="About"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

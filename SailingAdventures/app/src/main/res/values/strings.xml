@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Appalachian Trail</string>
+    <string name="txtSailboat">sailboat</string>
+    <string name="txtTitle">Appalachian Trail Festival</string>
+    <string name="txtDescription">Join us for a yearlong festival celebration of daily hikes throughout the 2,184 miles of the Appalchian Trail.
+        There will be short hikes for beginners and longer hikes for more experienced hikers.</string>
+    <string name="btnDate">SELECT THE DESIRED DATE FOR TICKETS</string>
+
+</resources>

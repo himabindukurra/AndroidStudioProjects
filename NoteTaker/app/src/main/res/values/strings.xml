@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sticky Notes</string>
+    <string name="appTitleText">My Sticky Notes</string>
+    <string name="createNewNotetxt">Create New Note</string>
+    <string name="openExistingNoteTxt">Open Existing Note</string>
+    <string name="exitBtnTxt">Exit App</string>
+    <string name="txtAbout">About</string>
+    <string name="about">It is an app which enables user to create, view, edit, save and share notes. For instance, we can use sticky notes as reminders- birthday, meeting; to-do list; grocery list; telephone directory; notes; password keeper etc.</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udayton.binduk.electriccarfinancing.Payment">
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/txtTitle2TopMargin"
+        android:text="@string/txtTitle"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txtTitleSize" />
+
+    <TextView
+        android:id="@+id/txtMonthlyPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/txtMontlyPaymentTopMargin"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txtMonthlyPaymentTextSize" />
+
+    <ImageView
+        android:id="@+id/imgYears"
+        android:layout_width="@dimen/imgYearsWidth"
+        android:layout_height="@dimen/imgYearsHeight"
+        android:layout_gravity="clip_horizontal"
+        android:layout_marginTop="@dimen/imgYearsTopMargin"
+        android:contentDescription="@string/imgYearsDescription"
+        app:srcCompat="@drawable/opening" />
+</LinearLayout>

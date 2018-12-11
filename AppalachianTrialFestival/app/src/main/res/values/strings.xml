@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sailing Adventures</string>
+    <string name="txtSailboat">sailboat</string>
+    <string name="txtTitle">Sailing Adventures - Kona, Hawaii</string>
+    <string name="txtDescription">Sailing Adventures located at  Kona in a Big Island, Hawaii, has a simple sailing philosophy</string>
+    <string name="btnDate">Select a Date for a full day Sailing Trip</string>
+
+</resources>

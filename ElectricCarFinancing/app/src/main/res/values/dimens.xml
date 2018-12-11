@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnPaymentSize">35sp</dimen>
+    <dimen name="txtInterestSize">25sp</dimen>
+    <dimen name="txtLoanSize">25sp</dimen>
+    <dimen name="txtMonthlyPaymentTextSize">25sp</dimen>
+    <dimen name="txtTitleSize">30sp</dimen>
+
+    <dimen name="btnPaymentTopMargin">28dp</dimen>
+    <dimen name="imgOpeningTopMargin">10dp</dimen>
+    <dimen name="imgYearsHeight">250dp</dimen>
+    <dimen name="imgYearsTopMargin">20dp</dimen>
+    <dimen name="imgYearsWidth">350dp</dimen>
+    <dimen name="txtInterestTopMargin">15dp</dimen>
+    <dimen name="txtLoanTopMargin">15dp</dimen>
+    <dimen name="txtMontlyPaymentTopMargin">40dp</dimen>
+    <dimen name="txtTitleTopMargin">20dp</dimen>
+    <dimen name="txtTitle2TopMargin">30dp</dimen>
+    <dimen name="yearSpinnerTopMargin">20dp</dimen>
+</resources>

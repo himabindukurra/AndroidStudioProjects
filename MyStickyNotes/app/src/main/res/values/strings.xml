@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Sticky Notes</string>
+    <string name="appTitleText">My Sticky Notes</string>
+    <string name="createNewNotetxt">Create New Note</string>
+    <string name="openExistingNoteTxt">Open Existing Note</string>
+    <string name="exitBtnTxt">Exit App</string>
+    <string name="txtAbout">About</string>
+</resources>

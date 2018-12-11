@@ -1,0 +1,19 @@
+<resources>
+
+
+    <string name="app_name">Electric Car financing</string>
+    <string name="btnPayment">Car Payment</string>
+    <string name="hint2">Car Loan Amount</string>
+    <string name="hint3">Interest Rate (e.g. 5.25)</string>
+    <string name="imgOpeningDescription">App Opening Image</string>
+    <string name="imgYearsDescription">Number of Years Image</string>
+    <string name="prompt1">Number of Years</string>
+    <string name="txtPayment">Monthly Payment</string>
+    <string name="txtTitle">Electric Car Financing</string>
+
+    <string-array name="years">
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+</resources>

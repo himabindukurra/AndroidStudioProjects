@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- UPDATE NOTE -->
+    <item
+        android:enabled="true"
+        android:title="update"
+        android:id="@+id/action_update"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+
+    <!-- CANCEL THE NOTE -->
+    <item
+        android:id="@+id/action_cancel"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="10"
+        android:title="Return"
+        app:showAsAction="ifRoom" />
+
+    <!-- DELETE NOTE -->
+    <item
+        android:id="@+id/action_delete"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="20"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

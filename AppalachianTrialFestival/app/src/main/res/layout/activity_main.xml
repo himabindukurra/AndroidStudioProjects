@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udayton.binduk.appalachiantrialfestival.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/sailImageView"
+        android:layout_width="@dimen/stdSailWidth"
+        android:layout_height="@dimen/stdSailHeight"
+        android:layout_weight="1"
+        android:contentDescription="@string/txtSailboat"
+        app:srcCompat="@drawable/sail" />
+
+    <TableLayout
+        android:id="@+id/tblLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <TableRow
+            android:id="@+id/tblRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View android:layout_height="@dimen/stdViewHeight"/>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/titleBackground"
+                android:fontFamily="serif"
+                android:gravity="fill_horizontal"
+                android:padding="@dimen/stdTitlePadding"
+                android:text="@string/txtTitle"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/stdTitleSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View android:layout_height="@dimen/stdViewHeight"/>
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="@dimen/stdDescPadding"
+                android:text="@string/txtDescription"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/stdDescTitleSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View android:layout_height="@dimen/stdViewHeight"/>
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/stdBtnPadding"
+                android:text="@string/btnDate"
+                android:textSize="@dimen/stdBtnTextSize" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View android:layout_height="@dimen/stdViewHeight"/>
+
+            <TextView
+                android:id="@+id/txtReservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:padding="@dimen/stdResPadding"
+                android:textSize="@dimen/stdResTextSize" />
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

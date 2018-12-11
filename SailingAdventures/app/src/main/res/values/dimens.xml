@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stdSailWidth">99dp</dimen>
+    <dimen name="stdSailHeight">310dp</dimen>
+    <dimen name="stdViewHeight">27dp</dimen>
+    <dimen name="stdTitleSize">23sp</dimen>
+    <dimen name="stdTitlePadding">15dp</dimen>
+    <dimen name="stdDescPadding">9dp</dimen>
+    <dimen name="stdDescTitleSize">14sp</dimen>
+    <dimen name="stdBtnPadding">9dp</dimen>
+    <dimen name="stdBtnTextSize">16sp</dimen>
+    <dimen name="stdResPadding">9dp</dimen>
+    <dimen name="stdResTextSize">16sp</dimen>
+
+    <dimen name="xlrgSailWidth">200dp</dimen>
+    <dimen name="xlrgSailHeight">670dp</dimen>
+    <dimen name="xlrgViewHeight">60dp</dimen>
+    <dimen name="xlrgTitleSize">50sp</dimen>
+    <dimen name="xlrgTitlePadding">50dp</dimen>
+    <dimen name="xlrgDescPadding">20dp</dimen>
+    <dimen name="xlrgDescTitleSize">30sp</dimen>
+    <dimen name="xlrgBtnPadding">20dp</dimen>
+    <dimen name="xlrgBtnTextSize">30sp</dimen>
+    <dimen name="xlrgResPadding">20dp</dimen>
+    <dimen name="xlrgResTextSize">36sp</dimen>
+
+    <dimen name="lrgSailWidth">135dp</dimen>
+    <dimen name="lrgSailHeight">460dp</dimen>
+    <dimen name="lrgViewHeight">41dp</dimen>
+    <dimen name="lrgTitleSize">34sp</dimen>
+    <dimen name="lrgTitlePadding">34dp</dimen>
+    <dimen name="lrgDescPadding">14dp</dimen>
+    <dimen name="lrgDescTitleSize">20sp</dimen>
+    <dimen name="lrgBtnPadding">14dp</dimen>
+    <dimen name="lrgBtnTextSize">20sp</dimen>
+    <dimen name="lrgResPadding">14dp</dimen>
+    <dimen name="lrgResTextSize">24sp</dimen>
+
+</resources>
